@@ -1,0 +1,12 @@
+:root {
+  /* Colors */
+  --color-1: #5b5b5b;
+  --color-2: #ffffff;
+  --color-3: #222222;
+  --color-4: #000000;
+  --color-5: #f8f8f8;
+
+  /* Fonts */
+  --font-primary: "Aboreto", sans-serif;
+  --font-secondary: "Afacad", sans-serif;
+}
