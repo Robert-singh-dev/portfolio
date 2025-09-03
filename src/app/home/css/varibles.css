@@ -9,4 +9,10 @@
   /* Fonts */
   --font-primary: "Aboreto", sans-serif;
   --font-secondary: "Afacad", sans-serif;
+
+  /* Spacing */
+  --sm: 30px;
+  --md: 60px;
+  --lg: 90px;
+  --xl: 120px;
 }

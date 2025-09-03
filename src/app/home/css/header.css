@@ -1,0 +1,14 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.navList {
+  gap: 4rem;
+}
+.socialLinksHeader {
+  gap: 1rem;
+}
+header {
+  padding: 20px 0;
+}
