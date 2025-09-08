@@ -24,6 +24,9 @@ h6,
 p {
   margin: 0;
 }
+ul {
+  padding-left: 1rem;
+}
 .container-main {
   width: 86%;
   margin: 0 auto;

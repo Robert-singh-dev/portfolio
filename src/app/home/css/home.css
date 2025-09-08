@@ -1,3 +1,4 @@
+/* Banner  */
 .heroBanner {
   height: 100dvh;
   border-bottom: 0.5px solid #fff;
@@ -13,4 +14,28 @@
   height: 526px;
   right: 0;
   bottom: -8px;
+}
+/* About */
+.aboutContent {
+  height: 250px;
+}
+.experienceContent {
+  gap: 0.5rem;
+}
+
+.projectBoxContainerOne {
+  display: grid;
+  grid-template-columns: 44% 54%;
+  gap: 2%;
+  justify-content: space-between;
+}
+.projectBox {
+  padding: 52px;
+  background-color: var(--color-3);
+  height: 434px;
+  border-radius: 10px;
+  width: 100%;
+}
+.projectBox ul {
+  gap: 1.5rem;
 }
