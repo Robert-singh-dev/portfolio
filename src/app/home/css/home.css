@@ -22,7 +22,11 @@
 .experienceContent {
   gap: 0.5rem;
 }
-
+/* Skills */
+.skillsSection {
+  height: 100vh;
+}
+/* Projects s */
 .projectBoxContainerOne {
   display: grid;
   grid-template-columns: 44% 54%;
