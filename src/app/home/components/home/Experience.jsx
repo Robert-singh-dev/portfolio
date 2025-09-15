@@ -5,15 +5,15 @@ export default function Experience() {
   return (
     <section className="aboutSection pd-vl-lg">
       <div className="container-main">
-        <div className="aboutContent d-flex align-items-center">
-          <div className="row d-flex justify-content-between align-items-center height-inherit">
-            <div className="col-xl-3 d-flex align-items-center justify-content-center border-right height-inherit">
+        <div className="aboutContent d-flex justify-content-center align-items-center">
+          <div className="row d-flex align-items-center height-inherit">
+            <div className="col-xl-4 d-flex align-items-center justify-content-center border-right height-inherit">
               <div className="d-flex justify-content-center">
                 <h2 className="heading-2">Experience</h2>
               </div>
             </div>
             <div className="col-xl-7">
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center padding-left-60">
                 <div className="experienceContent d-flex flex-column">
                   <p className="text-2">March 2024 - Present</p>
                   <p className="heading-4">Web Developer</p>

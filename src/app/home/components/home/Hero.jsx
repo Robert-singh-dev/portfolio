@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="heroBanner pd-tp-xl">
       <div className="container-main">
-        <div className="row  pd-tp-md">
+        <div className="row  pd-tp-xl">
           <div className="col-xl-7">
             <h1 className="heading-1 d-flex pd-bm-sm">Robert Singh</h1>
             <p className="text-1 bannerContent">

@@ -48,6 +48,11 @@
   padding-bottom: var(--xl);
 }
 
+/* padding  */
+.padding-left-60{
+  padding-left: 60px;
+}
+
 /* Headings */
 .heading-1,
 .heading-2 {
@@ -261,3 +266,4 @@
 .height-inherit {
   height: inherit;
 }
+
