@@ -6,7 +6,7 @@ export default function About() {
     <section className="aboutSection pd-vl-lg">
       <div className="container-main">
         <div className="aboutContent d-flex justify-content-center align-items-center">
-          <div className="row d-flex align-items-center height-inherit">
+          <div className="row d-flex align-items-center height-inherit width-100">
             <div className="col-xl-3 d-flex align-items-center justify-content-center border-right height-inherit">
               <div className="d-flex justify-content-center">
                 <h2 className="heading-2">About</h2>
@@ -14,7 +14,7 @@ export default function About() {
             </div>
             <div className="col-xl-7">
               <div className="d-flex justify-content-center padding-left-60">
-                <p className="text-1">
+                <p className="text-1 animate">
                   With 2+ years of experience, I create modern and animated web
                   experiences that combine clean design, smooth interactivity,
                   and performance to deliver engaging user experiences.

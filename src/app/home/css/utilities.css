@@ -249,12 +249,12 @@
   transition: fill 0.3s ease;
 }
 
-.primaryBtn:hover svg circle {
+.primaryBtn:hover svg path{
   fill: #000;
 }
 
 .primaryBtn:hover svg path {
-  fill: #fff;
+  fill: #000;
 }
 
 /* Border  */

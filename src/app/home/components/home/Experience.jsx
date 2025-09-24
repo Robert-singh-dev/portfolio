@@ -6,7 +6,7 @@ export default function Experience() {
     <section className="aboutSection pd-vl-lg">
       <div className="container-main">
         <div className="aboutContent d-flex justify-content-center align-items-center">
-          <div className="row d-flex align-items-center height-inherit">
+          <div className="row d-flex align-items-center height-inherit width-100">
             <div className="col-xl-4 d-flex align-items-center justify-content-center border-right height-inherit">
               <div className="d-flex justify-content-center">
                 <h2 className="heading-2">Experience</h2>
@@ -17,10 +17,10 @@ export default function Experience() {
                 <div className="experienceContent d-flex flex-column">
                   <p className="text-2">March 2024 - Present</p>
                   <p className="heading-4">Web Developer</p>
-                  <p className="text-1">
+                  <p className="text-1 animate">
                     I craft immersive, scroll-triggered animations that bring
-                    websites to life.  Build 3D interactive experiences using
-                    Three.js and Next.js.  Focused on smooth, high-performance
+                    websites to life. Build 3D interactive experiences using
+                    Three.js and Next.js. Focused on smooth, high-performance
                     front-end interactions for modern web experiences.
                   </p>
                 </div>

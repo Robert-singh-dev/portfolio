@@ -32,3 +32,10 @@ ul {
   margin: 0 auto;
   max-width: 1400px;
 }
+.width-100{
+  width: 100%;
+}
+.animate {
+  display: inline-block; /* needed for line split to work */
+  overflow: hidden;      /* hides lines outside container during animation */
+}
