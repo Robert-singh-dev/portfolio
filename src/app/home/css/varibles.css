@@ -1,10 +1,13 @@
 :root {
   /* Colors */
-  --color-1: #5b5b5b;
-  --color-2: #ffffff;
+  --color-1: #2a2929;;
+  --color-2: #ffffffad;
   --color-3: #222222;
   --color-4: #000000;
   --color-5: #f8f8f8;
+  --color-6: #cccccc;
+  --color-7: #D4AF37;
+  --color-8: #1a1a1a;
 
   /* Fonts */
   --font-primary: "Aboreto", sans-serif;
@@ -15,4 +18,13 @@
   --md: 60px;
   --lg: 90px;
   --xl: 120px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --sm: 15px;
+    --md: 30px;
+    --lg: 50px;
+    --xl: 70px;
+  }
 }

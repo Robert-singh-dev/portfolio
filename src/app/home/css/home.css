@@ -17,7 +17,7 @@
 }
 /* About */
 .aboutContent {
-  height: 250px;
+  height: 500px;
 }
 .experienceContent {
   gap: 0.5rem;
@@ -47,3 +47,54 @@
   gap: 1.5rem;
 }
   
+.aboutSection{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.p-box{
+  padding: 20px;
+  background-color: #222121;
+  border-radius: 4px;
+  border: 1px solid #222121;
+  transition: border-color 0.3s ease;
+}
+.p-box:hover {
+  border-color: #d4af3761;
+}
+/* responsive  */
+@media (max-width: 768px) {
+.heroImage{
+  bottom: -5px;
+  width: 80%;
+  height: auto;
+}
+.aboutSection{
+  height: auto;
+}
+.aboutContent{
+  height: auto;
+}
+.aboutContent{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-contnet-p{
+  padding-top: 30px;
+}
+.circle-container img{
+  width: 40px;
+  height: 40px;
+}
+.skillsSection {
+  height: 60vh;
+}
+.experience-content{
+  padding-top: 30px;
+}
+.project-p{
+  padding-top: 20px;
+}
+}

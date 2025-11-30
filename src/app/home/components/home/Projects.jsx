@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section className="projectSection pd-bt-xl">
+    <section className="projectSection pd-bm-xl" id="projects">
       <div className="container-main">
-        <div className="d-flex justify-content-center align-items-center pd-bm-xl">
-          <h4 className="heading-2">Projects</h4>
+        <div className="d-block d-md-flex justify-content-center align-items-center pd-bm-md">
+          <h4 className="heading-2 color-7 animate-lr">Projects</h4>
         </div>
-        <div className="pd-bm-sm">
+        {/* <div className="pd-bm-sm">
           <p className="heading-3">Personal</p>
         </div>
         <div className="projectBoxContainerOne">
@@ -63,12 +63,76 @@ export default function Projects() {
               </li>
             </ul>
           </div>
+        </div> */}
+
+        <div className="pd-bm-md">
+          <h4 className="heading-4">Featured Projects</h4>
         </div>
-        <div className="pd-tp-sm">
-          <div className="projectBoxContainerTwo">
-            <div className="projectBox"></div>
-          </div>
+        
+        <div className="d-flex flex-column gap-10">
+          <a href="https://www.growtharc.com/" target="_blank">
+            <div className="p-box">
+              <div className="row d-block d-md-flex align-items-center">
+                <div className="col-12 col-md-4">
+                  <div className="border-right">
+                    <div className="d-block d-md-flex align-items-center gap-2">
+                      <p className="text-3 color-7">Growth Arc</p>
+                      <p className="text-2"><i>(Supercode Design)</i></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-8">
+                  <p class="text-2 color-6 animate project-p">
+                  Specializing in GSAP-powered animations, I craft performance-optimized interactions, 
+                  scroll effects, and smooth UI transitions that elevate user engagement without sacrificing speed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://peopleequation.io/" target="_blank">
+            <div className="p-box">
+              <div className="row d-flex align-items-center">
+                <div className="col-12 col-md-4">
+                  <div className="border-right">
+                    <div className="d-flex align-items-center gap-2">
+                      <p className="text-3 color-7">People Equation</p>
+                      <p className="text-2"><i>(Supercode Design)</i></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-8">
+                  <p class="text-2 color-6 animate project-p">
+                    I developed this project by building a custom WordPress theme 
+                    with a well-structured CMS and integrating GSAP animations to 
+                    create smooth and engaging interactions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://vaani.in/" target="_blank">
+            <div className="p-box">
+              <div className="row d-flex align-items-center">
+                <div className="col-12 col-md-4">
+                  <div className="border-right">
+                    <div className="d-flex align-items-center gap-2">
+                      <p className="text-3 color-7">Vaani</p>
+                      <p className="text-2"><i>(Supercode Design)</i></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-8">
+                  <p class="text-2 color-6 animate project-p">
+                    I built a custom WordPress theme for content-heavy pages, focusing on 
+                    CMS structure, reusable components, and a fast, readable frontend with minimal animations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
+
       </div>
     </section>
   );

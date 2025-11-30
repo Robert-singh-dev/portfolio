@@ -98,7 +98,7 @@
   line-height: auto;
 }
 .text-3 {
-  font-family: var(--font-primary);
+  font-family: var(--font-primary) !important;
   font-size: 16px;
   line-height: auto;
 }
@@ -118,7 +118,7 @@
   left: 50%;
   transform: translateX(-50%) translateY(3px);
   height: 0.5px;
-  background: #ffffff;
+  background: #d4af37;
   opacity: 0;
   transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1),
     opacity 0.3s cubic-bezier(0.2, 1, 0.8, 1);
@@ -159,9 +159,9 @@
 .primaryBtn {
   width: fit-content;
   padding: 8px 8px 8px 23px;
-  border-radius: 14px;
+  border-radius: 8px;
   overflow: hidden;
-  color: #fff;
+  color: #ffffffad;
   position: relative;
   background: none;
   cursor: pointer;
@@ -172,6 +172,8 @@
   transition: color 0.3s ease;
   z-index: 1;
   border: 1px solid #000;
+  width: 200px;
+  height: 50px;
 }
 .primaryBtn svg {
   position: relative;
@@ -238,8 +240,8 @@
 }
 
 .primaryBtn:hover {
-  border: 1px solid #000;
-  color: #000;
+  color: var(--color-7);
+  background-color:#000;
 }
 .primaryBtn svg circle {
   transition: fill 0.3s ease;
@@ -250,11 +252,11 @@
 }
 
 .primaryBtn:hover svg path{
-  fill: #000;
+  fill: var(--color-7);
 }
 
 .primaryBtn:hover svg path {
-  fill: #000;
+  fill: var(--color-7);
 }
 
 /* Border  */
@@ -267,3 +269,82 @@
   height: inherit;
 }
 
+/* flex  */
+
+.gap-10{
+  gap: 30px;
+}
+
+.gap-20{
+  gap: 30px;
+}
+
+.gap-30{
+  gap: 30px;
+}
+
+/* font weight  */
+
+.fw-400{
+  font-weight: 400;
+}
+
+/* color  */
+.color-1{
+  color: var(--color-1);
+}
+.color-2{
+  color: var(--color-2);
+}
+.color-3{
+  color: var(--color-3);
+}
+.color-4{
+  color: var(--color-4);
+}
+.color-5{
+  color: var(--color-5);
+}
+.color-6{
+  color: var(--color-6);
+}
+.color-7{
+  color: var(--color-7);
+}
+
+/* responsive  */
+@media (max-width: 768px) {
+  .heading-1 {
+    font-size: 38px;
+    line-height: 1;
+  }
+  .heading-2 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+  .heading-3 {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+  .heading-4 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  .text-1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .text-2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .text-3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .primaryBtn{
+    width: fit-content;
+    height: auto;
+  }
+
+}

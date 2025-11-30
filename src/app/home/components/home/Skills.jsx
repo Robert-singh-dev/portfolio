@@ -21,9 +21,10 @@ const skills = [
 
 export default function Skills() {
   useEffect(() => {
-    gsap.set(".circle-container", { x: -70 });
+    const isMobile = window.innerWidth < 768;
+    gsap.set(".circle-container", { x: isMobile ? -60 : -70 });
     const icons = document.querySelectorAll(".circle-container img");
-    const radius = 280;
+    const radius = window.innerWidth < 768 ? 150 : 280;
 
     // Position all icons in a circle
     icons.forEach((icon, i) => {
@@ -56,9 +57,9 @@ export default function Skills() {
   }, []);
 
   return (
-    <section className="skillsSection flex flex-col justify-center items-center min-h-screen bg-gray-900 text-white">
+    <section className="skillsSection flex flex-col justify-center items-center min-h-screen bg-gray-900 text-white" id="skills">
       <div className="skillsContent text-center mb-10">
-        <h3 className="heading-2 text-3xl font-bold">Skills</h3>
+        <h3 className="heading-2 text-3xl font-bold color-7 animate-lr">Skills</h3>
       </div>
 
       <div className="circle-container relative w-[400px] h-[400px]">
