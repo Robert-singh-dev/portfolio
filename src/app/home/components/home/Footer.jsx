@@ -55,7 +55,7 @@ export default function Hero() {
                     </div>
                     <div className="col-xl-4">
                         <div className="d-flex justify-content-end">
-                            <a href="mailto:robertsinghdeveloper@gmail.com">
+                            <a className="footer-mail" href="mailto:robertsinghdeveloper@gmail.com">
                                 <div className="d-flex align-itemse-center gap-2 mail-footer">
                                     <svg
                                     width="26"

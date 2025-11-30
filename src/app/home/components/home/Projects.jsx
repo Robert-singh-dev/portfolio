@@ -90,6 +90,46 @@ export default function Projects() {
               </div>
             </div>
           </a>
+          <a href="https://gravitonspace.com/" target="_blank">
+            <div className="p-box">
+              <div className="row d-flex align-items-center">
+                <div className="col-12 col-md-4">
+                  <div className="border-right">
+                    <div className="d-flex align-items-center gap-2">
+                      <p className="text-3 color-7">Graviton</p>
+                      <p className="text-2"><i>(Supercode Design)</i></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-8">
+                  <p class="text-2 color-6 animate project-p">
+                    Integrated Three.js to create interactive 3D elements and implemented custom particle 
+                    animations to enhance the visual experience of the WordPress website.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://excelien.com/" target="_blank">
+            <div className="p-box">
+              <div className="row d-flex align-items-center">
+                <div className="col-12 col-md-4">
+                  <div className="border-right">
+                    <div className="d-flex align-items-center gap-2">
+                      <p className="text-3 color-7">Excelien</p>
+                      <p className="text-2"><i>(Supercode Design)</i></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-8">
+                  <p class="text-2 color-6 animate project-p">
+                    Integrated Three.js to create interactive 3D elements and implemented custom particle 
+                    animations to enhance the visual experience of the WordPress website.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
           <a href="https://peopleequation.io/" target="_blank">
             <div className="p-box">
               <div className="row d-flex align-items-center">
