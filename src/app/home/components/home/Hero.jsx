@@ -25,7 +25,7 @@ export default function Hero() {
         </div>  
       </div>
       {/* banner image  */}
-      <img src="/assets/Robert.png" alt="Robert" className="heroImage" />
+      {/* <img src="/assets/Robert.png" alt="Robert" className="heroImage" /> */}
     </section>
   );
 }

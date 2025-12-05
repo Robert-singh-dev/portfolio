@@ -41,7 +41,7 @@ export default function Header() {
                 <a href="#about" className="link--dia text-3">About</a>
                 <a href="#skills" className="link--dia text-3">Skills</a>
                 <a href="#experience" className="link--dia text-3">Experience</a>
-                <a href="#projects" className="link--dia text-3">Projects</a>
+                {/* <a href="#projects" className="link--dia text-3">Projects</a> */}
               </nav>
               {/* Desktop Socials */}
               <div className="socialLinksHeader d-flex">
@@ -141,7 +141,7 @@ export default function Header() {
                 <a href="#about" className="link--dia text-3" onClick={closeMenu}>About</a>
                 <a href="#skills" className="link--dia text-3" onClick={closeMenu}>Skills</a>
                 <a href="#experience" className="link--dia text-3" onClick={closeMenu}>Experience</a>
-                <a href="#projects" className="link--dia text-3" onClick={closeMenu}>Projects</a>
+                {/* <a href="#projects" className="link--dia text-3" onClick={closeMenu}>Projects</a> */}
               </nav>
 
               <div className="socialLinksHeader d-flex">

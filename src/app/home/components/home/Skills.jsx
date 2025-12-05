@@ -10,7 +10,6 @@ const skills = [
   "/assets/javascript-1.svg", 
   "/assets/react-2.svg",
   "/assets/next-js.svg", 
-  "/assets/css-3.svg",
   "/assets/nodejs-icon.svg", 
   "/assets/wordpress-icon-1.svg",
   "/assets/gsap-greensock.svg",
