@@ -63,6 +63,9 @@
 .p-box:hover {
   border-color: #d4af3761;
 }
+.fp-heading{
+  padding-bottom: 20px;
+}
 /* responsive  */
 @media (max-width: 768px) {
 .heroImage{
@@ -97,8 +100,4 @@
 .project-p{
   padding-top: 20px;
 }
-}
-
-#projects{
-  display: none;
 }

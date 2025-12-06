@@ -6,12 +6,10 @@ export default function Hero() {
     <section className="heroBanner pd-tp-xl">
       <div className="container-main">
         <div className="row  pd-tp-xl">
-          <div className="col-xl-7">
+          <div className="col-xl-10">
             <h1 className="heading-1 d-flex pd-bm-sm color-7 animate-lr">Robert Singh</h1>
             <p className="text-1 bannerContent animate">
-              I specialize in building dynamic, animated web experiences that
-              bring interfaces to life, ensuring both aesthetic appeal and
-              intuitive functionality.
+              I’m a Junior Web Developer with 2+ years of experience creating dynamic, animated, and fully custom WordPress websites. I convert Figma designs into clean, responsive interfaces using HTML, CSS, JavaScript, and PHP, and build flexible themes using ACF, CPTs, WP_Query, and WordPress Hooks. I handle end-to-end development—from frontend UI to backend structure, optimization, debugging, and deployment—while delivering smooth user experiences and high-performance code. Always learning and improving.
             </p>
             <div className="pd-tp-sm">
               <a href="/assets/resume-robert-singh.pdf" target="_blank" className="primaryBtn">
@@ -24,8 +22,6 @@ export default function Hero() {
           </div>
         </div>  
       </div>
-      {/* banner image  */}
-      {/* <img src="/assets/Robert.png" alt="Robert" className="heroImage" /> */}
     </section>
   );
 }

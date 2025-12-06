@@ -66,7 +66,10 @@ export default function Projects() {
         </div> */}
 
         <div className="pd-bm-md">
-          <h4 className="heading-4">Featured Projects</h4>
+          <h4 className="heading-4 fp-heading">Featured Projects</h4>
+          <p class="text-2 color-6 animate">
+            These projects were completed during my employment at Supercode Designs, where I worked as a Frontend & WordPress Developer. My responsibilities included building interactive user interfaces, adding smooth animations, and developing clean, responsive layouts using custom WordPress theming, HTML, CSS, JavaScript, and PHP.
+          </p>
         </div>
         
         <div className="d-flex flex-column gap-10">
