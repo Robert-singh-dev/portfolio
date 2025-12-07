@@ -10,104 +10,6 @@ import Projects from "./components/home/Projects";
 import Footer from "./components/home/Footer";
 
 export default function Home() {
-  // useEffect(() => {
-  //   const canvas = document.getElementById("particles-canvas");
-  //   if (!canvas) return;
-  
-  //   const scene = new THREE.Scene();
-  //   const camera = new THREE.PerspectiveCamera(
-  //     75,
-  //     window.innerWidth / window.innerHeight,
-  //     0.1,
-  //     1000
-  //   );
-  
-  //   const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
-  //   renderer.setSize(window.innerWidth, window.innerHeight);
-  
-  //   const particlesCount = 3000;
-  //   const geometry = new THREE.BufferGeometry();
-  //   const positions = new Float32Array(particlesCount * 3);
-  //   const radius = 6;
-  
-  //   for (let i = 0; i < particlesCount; i++) {
-  //     const phi = Math.acos(2 * Math.random() - 1);
-  //     const theta = Math.random() * Math.PI * 2;
-  
-  //     const x = radius * Math.sin(phi) * Math.cos(theta);
-  //     const y = radius * Math.sin(phi) * Math.sin(theta);
-  //     const z = radius * Math.cos(phi);
-  
-  //     positions.set([x, y, z], i * 3);
-  //   }
-  
-  //   geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
-  
-  //   // Create a circle canvas texture
-  //   const size = 64;
-  //   const circleCanvas = document.createElement("canvas");
-  //   circleCanvas.width = size;
-  //   circleCanvas.height = size;
-  //   const ctx = circleCanvas.getContext("2d");
-  
-  //   ctx.beginPath();
-  //   ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
-  //   ctx.closePath();
-  //   ctx.fillStyle = "white";
-  //   ctx.fill();
-  
-  //   const circleTexture = new THREE.CanvasTexture(circleCanvas);
-  
-  //   const material = new THREE.PointsMaterial({
-  //     color: "#FFDFAF",
-  //     size: 0.05,
-  //     map: circleTexture,
-  //     transparent: true,
-  //     alphaTest: 0.5,
-  //     sizeAttenuation: true,
-  //     opacity: 0.9,
-  //   });
-  
-  //   const particles = new THREE.Points(geometry, material);
-  //   scene.add(particles);
-  
-  //   // camera.position.z = 12;
-
-  //   camera.position.set(-8, 1.5, 12);
-  
-  //   const animate = () => {
-  //     requestAnimationFrame(animate);
-  //     const time = Date.now() * 0.001;
-  
-  //     for (let i = 0; i < particlesCount; i++) {
-  //       const i3 = i * 3;
-  //       const x = positions[i3];
-  //       const y = positions[i3 + 1];
-  
-  //       positions[i3 + 2] = Math.sin(time + i) * 0.15;
-  //     }
-  //     geometry.attributes.position.needsUpdate = true;
-  
-  //     particles.rotation.z += 0.0015;
-  //     particles.rotation.x += 0.0007;
-  //     renderer.render(scene, camera);
-  //   };
-  
-  //   animate();
-  
-  //   const handleResize = () => {
-  //     camera.aspect = window.innerWidth / window.innerHeight;
-  //     camera.updateProjectionMatrix();
-  //     renderer.setSize(window.innerWidth, window.innerHeight);
-  //   };
-  
-  //   window.addEventListener("resize", handleResize);
-  
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize);
-  //     renderer.dispose();
-  //   };
-  // }, []);
   useEffect(() => {
     const canvas = document.getElementById("particles-canvas");
     if (!canvas) return;
@@ -169,7 +71,8 @@ export default function Home() {
     const circleTexture = new THREE.CanvasTexture(circleCanvas);
 
     const material = new THREE.PointsMaterial({
-      color: "#FFDFAF",
+      // color: "#B5D4FF",
+      color: "#AFCFFF",
       size: 0.05,
       map: circleTexture,
       transparent: true,

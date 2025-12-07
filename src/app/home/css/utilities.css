@@ -159,7 +159,6 @@
 .primaryBtn {
   width: fit-content;
   padding: 8px 8px 8px 23px;
-  border-radius: 8px;
   overflow: hidden;
   color: #ffffffad;
   position: relative;
@@ -171,9 +170,10 @@
   justify-content: center;
   transition: color 0.3s ease;
   z-index: 1;
-  border: 1px solid #000;
+  border: 1px solid #d4af37;
   width: 200px;
   height: 50px;
+  border-radius: 4px;
 }
 .primaryBtn svg {
   position: relative;
