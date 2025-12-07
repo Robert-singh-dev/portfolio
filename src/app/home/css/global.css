@@ -34,7 +34,7 @@ ul {
 }
 /* header  */
 header{
-  background-color: #2a2929;
+  background-color:var(--color-1);
 }
 .logoContainer{
   transition: fill 0.3s ease;

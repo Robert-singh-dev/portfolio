@@ -1,19 +1,24 @@
 /* Banner  */
 .heroBanner {
   height: 100dvh;
-  border-bottom: 0.5px solid #fff;
   position: relative;
 }
 .bannerContent {
   max-width: 90%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.aboutSection{
+  position: relative;
 }
 .heroImage {
   position: absolute;
-  width: 526px;
-  height: 526px;
-  right: 0;
-  bottom: -8px;
+  object-fit: cover;
+  left: 0;
+  top: 10%;
+  width: auto;
 }
 /* About */
 .aboutContent {
@@ -55,9 +60,9 @@
 
 .p-box{
   padding: 20px;
-  background-color: #222121;
+  background-color: #000;
   border-radius: 4px;
-  border: 1px solid #222121;
+  border: 1px solid #000;
   transition: border-color 0.3s ease;
 }
 .p-box:hover {
@@ -68,10 +73,13 @@
 }
 /* responsive  */
 @media (max-width: 768px) {
+  .heroBanner{
+    display: flex;
+    align-items: center;
+  }
 .heroImage{
-  bottom: -5px;
-  width: 80%;
-  height: auto;
+  position: relative;
+  margin-bottom: 40px;
 }
 .aboutSection{
   height: auto;
