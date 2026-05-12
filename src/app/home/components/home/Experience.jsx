@@ -16,8 +16,18 @@ export default function Experience() {
               <div className="d-flex justify-content-center padding-left-60 width-100 padding-auto-md">
                 <div className="d-flex flex-column gap-30 experience-content">
                   <div className="experienceContent d-flex flex-column">
+                    <p className="heading-4">Web Developer <i className="fw-400">(Honeycomb creative support)</i></p>
+                    <p className="text-3">Jan 2024 - Present</p>
+                    <p className="text-2 color-6 animate">
+                      Developed custom WordPress themes and internal automation plugins focused on scalable 
+                      component-based architecture using ACF Pro. Built dynamic systems that automatically 
+                      generate component structures, streamline Flexible Content workflows, and improve 
+                      development efficiency through reusable tooling and automation.
+                    </p>
+                  </div>
+                  <div className="experienceContent d-flex flex-column">
                     <p className="heading-4">Web Developer <i className="fw-400">(SuperCode Design)</i></p>
-                    <p className="text-3">March 2024 - Present</p>
+                    <p className="text-3">March 2024 - Dec 2025</p>
                     <p className="text-2 color-6 animate">
                       I craft immersive, scroll-triggered animations that bring
                       websites to life. Build 3D interactive experiences using
