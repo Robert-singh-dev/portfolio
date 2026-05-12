@@ -17,7 +17,7 @@ export default function Experience() {
                 <div className="d-flex flex-column gap-30 experience-content">
                   <div className="experienceContent d-flex flex-column">
                     <p className="heading-4">Web Developer <i className="fw-400">(Honeycomb creative support)</i></p>
-                    <p className="text-3">Jan 2024 - Present</p>
+                    <p className="text-3">Jan 2026 - Present</p>
                     <p className="text-2 color-6 animate">
                       Developed custom WordPress themes and internal automation plugins focused on scalable 
                       component-based architecture using ACF Pro. Built dynamic systems that automatically 
