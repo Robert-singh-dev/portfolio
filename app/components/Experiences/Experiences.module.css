@@ -1,0 +1,92 @@
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: transparent;
+}
+
+.title {
+  font-size: 1.2rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #888888;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.itemTitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.thin {
+  font-weight: 300;
+  color: #888888;
+}
+
+.bold {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.bullet {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #a0aec0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.bullet::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #555555;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+  
+  .list {
+    gap: 2.5rem;
+  }
+}

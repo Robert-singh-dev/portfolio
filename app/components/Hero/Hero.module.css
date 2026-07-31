@@ -1,0 +1,66 @@
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: transparent;
+}
+
+.introGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.thin {
+  font-weight: 300;
+  color: #888888;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #a0aec0;
+  max-width: 440px;
+  justify-self: end;
+  text-align: left;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 1.5rem 2rem;
+    gap: 2rem;
+  }
+  
+  .introGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .paragraph {
+    justify-self: start;
+    max-width: 100%;
+  }
+}

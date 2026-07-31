@@ -1,0 +1,99 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 5%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.logoContainer:hover {
+  opacity: 0.95;
+}
+
+.logoIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.logoText {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.logoDot {
+  color: #00d2ff;
+}
+
+.nav {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #94a3b8;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.navLink:hover {
+  color: #ffffff;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #00d2ff;
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.resumeBtn {
+  color: #00d2ff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #00d2ff;
+  transition: opacity 0.2s ease;
+}
+
+.resumeBtn:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}

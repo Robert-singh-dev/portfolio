@@ -1,0 +1,182 @@
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: transparent;
+}
+
+.title {
+  font-size: 1.2rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #888888;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+/* Infinite Carousel styles */
+.carouselContainer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 1.5rem 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.carouselContainer::before,
+.carouselContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carouselContainer::before {
+  left: 0;
+  background: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
+}
+
+.carouselContainer::after {
+  right: 0;
+  background: linear-gradient(to left, #000000, rgba(0, 0, 0, 0));
+}
+
+.carouselTrack {
+  display: flex;
+  gap: 3.5rem;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+}
+
+.carouselTrack:hover {
+  animation-play-state: paused;
+}
+
+.logoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  transition: transform 0.3s ease;
+  width: 70px;
+}
+
+.logoItem:hover {
+  transform: translateY(-5px);
+}
+
+.logoImage {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(150%) contrast(80%) opacity(0.4);
+  transition: all 0.3s ease;
+}
+
+.logoItem:hover .logoImage {
+  filter: grayscale(0%) brightness(100%) contrast(100%) opacity(1);
+}
+
+/* Specific styling for Three.js black icon to make it white */
+.threeJsLogo {
+  filter: invert(1) opacity(0.4) !important;
+  transition: all 0.3s ease;
+}
+
+.logoItem:hover .threeJsLogo {
+  filter: invert(1) opacity(1) !important;
+}
+
+.logoName {
+  font-size: 0.7rem;
+  color: #555555;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.logoItem:hover .logoName {
+  color: #ffffff;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  margin-top: 1.5rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.label {
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.thin {
+  font-weight: 300;
+  color: #888888;
+}
+
+.bold {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #a0aec0;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+  
+  .carouselTrack {
+    gap: 2rem;
+  }
+  
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}

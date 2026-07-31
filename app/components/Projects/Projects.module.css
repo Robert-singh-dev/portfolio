@@ -1,0 +1,104 @@
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: transparent;
+}
+
+.title {
+  font-size: 1.2rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #888888;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.projectHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.thin {
+  font-weight: 300;
+  color: #888888;
+}
+
+.bold {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #a0aec0;
+}
+
+.link {
+  font-size: 0.85rem;
+  color: #888888;
+  text-decoration: none;
+  font-family: monospace;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+  width: fit-content;
+}
+
+.link:hover {
+  color: #00d2ff;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+  
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+}
