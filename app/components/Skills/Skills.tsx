@@ -16,7 +16,7 @@ const techLogos = [
   { name: "WordPress", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" },
   { name: "PHP", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" },
   { name: "MySQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
-  { name: "GSAP", src: "https://robertsingh-portfolio.vercel.app/assets/gsap-greensock.svg" },
+  { name: "GSAP", src: "https://cdn.simpleicons.org/greensock" },
   { name: "Three.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg", isThreeJs: true },
   { name: "Figma", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" }
 ];
@@ -146,7 +146,7 @@ export default function Skills() {
             <span className={styles.thin}>Front</span> <span className={styles.bold}>End :</span>
           </div>
           <p className={styles.description}>
-            Common HTML, JavaScript CSS, JS fundamentals, React & Next.js
+            Semantic HTML5 structure and modular CSS layouts utilizing Flexbox & Grid for highly responsive, reusable components. Advanced ES6+ JavaScript engineered for complex UI development, including custom DOM operations, state management, and scalable modular interfaces with React & Next.js.
           </p>
         </div>
 
@@ -155,7 +155,7 @@ export default function Skills() {
             <span className={styles.bold}>Animations :</span>
           </div>
           <p className={styles.description}>
-            GSAP scroll animations and page animations. Three.js 3D rendering.
+            Interactive GSAP scroll-triggered animations and high-performance WebGL 3D rendering with Three.js.
           </p>
         </div>
 
@@ -164,7 +164,7 @@ export default function Skills() {
             <span className={styles.thin}>Back</span> <span className={styles.bold}>End :</span>
           </div>
           <p className={styles.description}>
-            NodeJS, WordPress (custom setup/REST API for CMS)
+            Server-side engineering utilizing PHP and Node.js. Building custom WordPress architectures from scratch, handling database connectivity, querying, and relational data structures.
           </p>
         </div>
 
@@ -173,7 +173,7 @@ export default function Skills() {
             <span className={styles.bold}>API :</span>
           </div>
           <p className={styles.description}>
-            RESTful, GraphQL, custom REST API integration
+            Designing and integrating RESTful and GraphQL APIs, specializing in custom WordPress REST API development to power headless CMS configurations.
           </p>
         </div>
 
@@ -182,7 +182,7 @@ export default function Skills() {
             <span className={styles.bold}>Server :</span>
           </div>
           <p className={styles.description}>
-            Vercel, Nginx, DigitalOcean deployment & managing
+            Cloud infrastructure hosting on DigitalOcean VPS (Nginx configuration) and Vercel serverless deployments.
           </p>
         </div>
       </div>
